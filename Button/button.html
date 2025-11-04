@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Button</title>
+  </head>
+  <body>
+    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"
+      ><button
+        id="button"
+        onclick="doSomething()"
+        style="
+          font-size: 25px;
+          background-color: greenyellow;
+          border-radius: 25px;
+        "
+      >
+        Click on me
+      </button></a
+    >
+    <script>
+      const doSomething = () => {
+        document.getElementById("button").innerHTML =
+          "You have been rickrolled";
+      };
+    </script>
+  </body>
+</html>
