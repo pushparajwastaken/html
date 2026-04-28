@@ -1,0 +1,9 @@
+import { Component } from "@/component/tywkod";
+
+export default function Home() {
+  return (
+    <main className="h-screen max-w-4xl mx-auto flex items-center">
+      <Component />
+    </main>
+  );
+}
